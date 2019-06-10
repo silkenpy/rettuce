@@ -1,0 +1,16 @@
+
+rest {
+    port = 7070
+    ip = 0.0.0.0
+
+}
+
+threadNum = 10
+recordPerThread = 250000
+redis{
+     port = 7000
+
+     cluster=[
+     silken
+     ]
+}
